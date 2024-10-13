@@ -1,0 +1,31 @@
+<div class="container card py-3 my-1">
+  <!-- d-grid gap-2 d-md-block -->
+
+  <div class="row px-4">
+    <h5 class="row">{{ title }}</h5>
+
+    <div class="row gx-1">
+      <div class="col-sm-2">
+        <button
+          type="button"
+          (click)="accept($event)"
+          class="btn btn-primary"
+          i18n
+        >
+          Accept
+        </button>
+      </div>
+
+      <div class="col-sm-2">
+        <button
+          type="button"
+          (click)="deny($event)"
+          class="btn btn-primary"
+          i18n
+        >
+          Deny
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

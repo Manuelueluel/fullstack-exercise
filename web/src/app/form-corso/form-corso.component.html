@@ -1,0 +1,79 @@
+<form
+  [formGroup]="form"
+  (ngSubmit)="onSubmit()"
+  class="needs-validation container card py-3 gy-4 my-1"
+  novalidate
+>
+  <div class="col px-4">
+    <h3 class="row">{{ title }}</h3>
+    <div class="row">
+      <label for="nome" class="form-label row" i18n>Name:</label>
+      <input
+        type="text"
+        id="nome"
+        name="nome"
+        formControlName="nome"
+        class="form-control row gx-1"
+        required
+        [class.is-invalid]="
+          (form.get('nome')?.touched || form.get('nome')?.dirty) &&
+          form.get('nome')?.invalid
+        "
+        [class.is-valid]="form.get('nome')?.valid"
+      />
+
+      <div
+        *ngIf="nome.invalid && (nome.dirty || nome.touched)"
+        class="invalid-feedback"
+      >
+        <div *ngIf="nome.errors?.['required']" i18n>Name is required.</div>
+        <div *ngIf="nome.errors?.['nameInvalid']" i18n>Name is invalid.</div>
+      </div>
+    </div>
+
+    <div class="row">
+      <label for="professore" class="form-label row" i18n>Professor:</label>
+      <input
+        type="text"
+        id="professore"
+        name="professore"
+        formControlName="professore"
+        class="form-control row gx-1"
+        required
+        [class.is-invalid]="
+          (form.get('professore')?.touched || form.get('professore')?.dirty) &&
+          form.get('professore')?.invalid
+        "
+        [class.is-valid]="form.get('professore')?.valid"
+      />
+      <div
+        *ngIf="professore.invalid && (professore.dirty || professore.touched)"
+        class="invalid-feedback"
+      >
+        <div *ngIf="professore.errors?.['required']" i18n>
+          Professor is required.
+        </div>
+        <div *ngIf="professore.errors?.['nameInvalid']" i18n>
+          Professor is invalid.
+        </div>
+      </div>
+    </div>
+
+    <div class="row mt-3 justify-content-end">
+      <button
+        type="submit"
+        class="btn btn-primary col-sm-2"
+        [disabled]="form.invalid"
+        i18n
+      >
+        Submit
+      </button>
+    </div>
+  </div>
+</form>
+
+<!-- 
+  [disabled]="!form.valid"
+<ngb-alert #alert *ngIf="successAlert" [dismissible]="true" type="success">Success</ngb-alert>
+<button type="button" (click)="showAlert()">click</button>
+-->

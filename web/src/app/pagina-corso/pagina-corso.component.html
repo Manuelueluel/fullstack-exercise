@@ -1,0 +1,74 @@
+<ul ngbNav #nav="ngbNav" [(activeId)]="active" class="nav-tabs">
+  <li [ngbNavItem]="1">
+    <button ngbNavLink i18n>Create course</button>
+    <ng-template ngbNavContent>
+      <app-form-corso
+        (notify)="createCorsoEvent($event)"
+        [title]="titleCreaCorso"
+      ></app-form-corso>
+    </ng-template>
+  </li>
+  <li [ngbNavItem]="2">
+    <button ngbNavLink i18n>List of courses</button>
+    <ng-template ngbNavContent>
+      <app-tabella
+        [title]="titleCorsiTable"
+        [headers]="corsoTable.headers"
+        [rows]="corsoTable.rows"
+        (notify)="selectCorsoEvent($event)"
+      ></app-tabella>
+
+      <!-- Modifica corso -->
+      <div *ngIf="showUpdateCorso">
+        <app-form-corso
+          (notify)="updateCorso($event)"
+          [title]="titleModificaCorso"
+        ></app-form-corso>
+      </div>
+
+      <!-- Cancella corso -->
+      <div *ngIf="showCancellaCorso">
+        <app-accept-deny
+          [title]="titleCancellaCorso"
+          (acceptEvent)="deleteCorso()"
+          (denyEvent)="hideCancellaCorso()"
+        ></app-accept-deny>
+      </div>
+    </ng-template>
+  </li>
+
+  <li [ngbNavItem]="3" [disabled]="listaIscrizioniTabDisabled">
+    <button ngbNavLink type="button" i18n>Enrollment list</button>
+    <ng-template ngbNavContent>
+      <div *ngIf="showIscrizioni">
+        <app-tabella
+          [title]="titleIscrizioniCorso"
+          [headers]="iscrizioniTable.headers"
+          [rows]="iscrizioniTable.rows"
+          (notify)="selectStudentEvent($event)"
+        ></app-tabella>
+
+        <div *ngIf="showCancellareIscrizione">
+          <app-accept-deny
+            [title]="titleCancellaIscrizione"
+            (acceptEvent)="deleteIscrizione()"
+            (denyEvent)="hideCancellaIscrizione()"
+          ></app-accept-deny>
+        </div>
+      </div>
+    </ng-template>
+  </li>
+</ul>
+
+<div [ngbNavOutlet]="nav" class="mt-2"></div>
+
+<div class="text-center">
+  <button
+    type="button"
+    onclick="window.location.href='/student';"
+    class="btn btn-primary mt-5 mb-5"
+    i18n
+  >
+    Go to student page
+  </button>
+</div>

@@ -1,0 +1,707 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="ngb.alert.close" datatype="html">
+        <source>Close</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.HH" datatype="html">
+        <source>HH</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.toast.close-aria" datatype="html">
+        <source>Close</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.first" datatype="html">
+        <source>««</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.select-month" datatype="html">
+        <source>Select month</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.previous-month" datatype="html">
+        <source>Previous month</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.progressbar.value" datatype="html">
+        <source><x id="INTERPOLATION"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.carousel.slide-number" datatype="html">
+        <source> Slide <x id="INTERPOLATION"/> of <x id="INTERPOLATION_1"/> </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <note priority="1" from="description">Currently selected slide number read by screen reader</note>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.hours" datatype="html">
+        <source>Hours</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.previous" datatype="html">
+        <source>«</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.carousel.previous" datatype="html">
+        <source>Previous</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.MM" datatype="html">
+        <source>MM</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.next" datatype="html">
+        <source>»</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.select-year" datatype="html">
+        <source>Select year</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.next-month" datatype="html">
+        <source>Next month</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.carousel.next" datatype="html">
+        <source>Next</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.minutes" datatype="html">
+        <source>Minutes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.last" datatype="html">
+        <source>»»</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.increment-hours" datatype="html">
+        <source>Increment hours</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.first-aria" datatype="html">
+        <source>First</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.previous-aria" datatype="html">
+        <source>Previous</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.decrement-hours" datatype="html">
+        <source>Decrement hours</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.next-aria" datatype="html">
+        <source>Next</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.increment-minutes" datatype="html">
+        <source>Increment minutes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.last-aria" datatype="html">
+        <source>Last</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.decrement-minutes" datatype="html">
+        <source>Decrement minutes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.SS" datatype="html">
+        <source>SS</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.seconds" datatype="html">
+        <source>Seconds</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.increment-seconds" datatype="html">
+        <source>Increment seconds</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.decrement-seconds" datatype="html">
+        <source>Decrement seconds</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.PM" datatype="html">
+        <source><x id="INTERPOLATION"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.AM" datatype="html">
+        <source><x id="INTERPOLATION"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="439130533561834924" datatype="html">
+        <source> Accept </source>
+        <target> Accetta </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/accept-deny/accept-deny.component.html</context>
+          <context context-type="linenumber">14,16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4969127222615947013" datatype="html">
+        <source> Deny </source>
+        <target> Nega </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/accept-deny/accept-deny.component.html</context>
+          <context context-type="linenumber">25,27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7658402240953727096" datatype="html">
+        <source>Name:</source>
+        <target>Nome:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/form-corso/form-corso.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/form-student/form-student.component.html</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/iscrizione-student/iscrizione-student.component.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4444753420973870540" datatype="html">
+        <source>Name is required.</source>
+        <target>Nome è richiesto.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/form-corso/form-corso.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/form-student/form-student.component.html</context>
+          <context context-type="linenumber">57</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/iscrizione-student/iscrizione-student.component.html</context>
+          <context context-type="linenumber">56</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8961246359213984704" datatype="html">
+        <source>Name is invalid.</source>
+        <target>Nome non è valido.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/form-corso/form-corso.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/form-student/form-student.component.html</context>
+          <context context-type="linenumber">58</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/iscrizione-student/iscrizione-student.component.html</context>
+          <context context-type="linenumber">57</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="653230236397490547" datatype="html">
+        <source>Professor:</source>
+        <target>Professore:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/form-corso/form-corso.component.html</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/iscrizione-student/iscrizione-student.component.html</context>
+          <context context-type="linenumber">116</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="537535535042769628" datatype="html">
+        <source> Professor is required. </source>
+        <target> Professore è richiesto. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/form-corso/form-corso.component.html</context>
+          <context context-type="linenumber">53,55</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/iscrizione-student/iscrizione-student.component.html</context>
+          <context context-type="linenumber">134,136</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6221298954990239894" datatype="html">
+        <source> Professor is invalid. </source>
+        <target>Professore non è valido. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/form-corso/form-corso.component.html</context>
+          <context context-type="linenumber">56,58</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/iscrizione-student/iscrizione-student.component.html</context>
+          <context context-type="linenumber">137,139</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4943998242904350511" datatype="html">
+        <source> Submit </source>
+        <target> Invia </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/form-corso/form-corso.component.html</context>
+          <context context-type="linenumber">68,70</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/form-student/form-student.component.html</context>
+          <context context-type="linenumber">96,98</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/iscrizione-student/iscrizione-student.component.html</context>
+          <context context-type="linenumber">149,151</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8864487070133757436" datatype="html">
+        <source>Badge number:</source>
+        <target>Matricola:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/form-student/form-student.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/iscrizione-student/iscrizione-student.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7043768524303887330" datatype="html">
+        <source> Badge number is required. </source>
+        <target> Matricola è richiesta</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/form-student/form-student.component.html</context>
+          <context context-type="linenumber">29,31</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/iscrizione-student/iscrizione-student.component.html</context>
+          <context context-type="linenumber">28,30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8091629712330126963" datatype="html">
+        <source> Badge number is invalid. </source>
+        <target> Matricola non è valida.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/form-student/form-student.component.html</context>
+          <context context-type="linenumber">32,34</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/iscrizione-student/iscrizione-student.component.html</context>
+          <context context-type="linenumber">31,33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5966006824638961469" datatype="html">
+        <source>Surname:</source>
+        <target>Cognome:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/form-student/form-student.component.html</context>
+          <context context-type="linenumber">63</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1382265866050618696" datatype="html">
+        <source> Surname is required. </source>
+        <target> Cognome è richiesto. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/form-student/form-student.component.html</context>
+          <context context-type="linenumber">82,84</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/iscrizione-student/iscrizione-student.component.html</context>
+          <context context-type="linenumber">80,82</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2920374585281855819" datatype="html">
+        <source> Surname is invalid. </source>
+        <target> Cognome non è valido. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/form-student/form-student.component.html</context>
+          <context context-type="linenumber">85,87</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/iscrizione-student/iscrizione-student.component.html</context>
+          <context context-type="linenumber">83,85</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2045112409653231798" datatype="html">
+        <source>Surname</source>
+        <target>Cognome</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/iscrizione-student/iscrizione-student.component.html</context>
+          <context context-type="linenumber">62</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pagina-corso/pagina-corso.component.ts</context>
+          <context context-type="linenumber">45</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pagina-student/pagina-student.component.ts</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5681377041688714646" datatype="html">
+        <source>Course:</source>
+        <target>Corso:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/iscrizione-student/iscrizione-student.component.html</context>
+          <context context-type="linenumber">90</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5763493923496379709" datatype="html">
+        <source>Course is required.</source>
+        <target>Corso è richiesto.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/iscrizione-student/iscrizione-student.component.html</context>
+          <context context-type="linenumber">108</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6100311202817001462" datatype="html">
+        <source> Course is invalid. </source>
+        <target>Corso non è valido.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/iscrizione-student/iscrizione-student.component.html</context>
+          <context context-type="linenumber">109,111</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9025285043676485540" datatype="html">
+        <source>Fullstack-exercise</source>
+        <target> Esercizo fullstack </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/navbar/navbar.component.ts</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6901319672515908116" datatype="html">
+        <source>Students page</source>
+        <target>Pagina studente</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/navbar/navbar.component.ts</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3986755259997874676" datatype="html">
+        <source>Courses page</source>
+        <target>Pagina corsi</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/navbar/navbar.component.ts</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1749190493284101538" datatype="html">
+        <source>Create course</source>
+        <target>Crea corso</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pagina-corso/pagina-corso.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pagina-corso/pagina-corso.component.ts</context>
+          <context context-type="linenumber">50</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4767119671089238304" datatype="html">
+        <source>List of courses</source>
+        <target>Lista corsi</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pagina-corso/pagina-corso.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4855852628326269532" datatype="html">
+        <source>Enrollment list</source>
+        <target>Lista iscrizioni</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pagina-corso/pagina-corso.component.html</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4379516704089816336" datatype="html">
+        <source> Go to student page </source>
+        <target>Vai alla pagina studenti</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pagina-corso/pagina-corso.component.html</context>
+          <context context-type="linenumber">71,73</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7286430803380181008" datatype="html">
+        <source>Id</source>
+        <target>Id</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pagina-corso/pagina-corso.component.ts</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pagina-corso/pagina-corso.component.ts</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pagina-student/pagina-student.component.ts</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8953033926734869941" datatype="html">
+        <source>Name</source>
+        <target>Nome</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pagina-corso/pagina-corso.component.ts</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pagina-corso/pagina-corso.component.ts</context>
+          <context context-type="linenumber">44</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pagina-student/pagina-student.component.ts</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1951990390156602647" datatype="html">
+        <source>Professor</source>
+        <target>Professore</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pagina-corso/pagina-corso.component.ts</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6136760960265592701" datatype="html">
+        <source>Badge number</source>
+        <target>Matricola</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pagina-corso/pagina-corso.component.ts</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pagina-student/pagina-student.component.ts</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="943245443267475251" datatype="html">
+        <source>Courses list</source>
+        <target>Lista corsi</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pagina-corso/pagina-corso.component.ts</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="578157667067669989" datatype="html">
+        <source>Modify course <x id="PH" equiv-text="this.selectedCorsoName"/></source>
+        <target>Modifica corso <x id="PH" equiv-text="this.selectedCorsoName"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pagina-corso/pagina-corso.component.ts</context>
+          <context context-type="linenumber">81</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7887979048610024052" datatype="html">
+        <source>Delete course <x id="PH" equiv-text="this.selectedCorsoName"/></source>
+        <target>Cancella corso <x id="PH" equiv-text="this.selectedCorsoName"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pagina-corso/pagina-corso.component.ts</context>
+          <context context-type="linenumber">82</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5894878676897486577" datatype="html">
+        <source>Course enrollments <x id="PH" equiv-text="this.selectedCorsoName"/></source>
+        <target>Isrcizioni al corso <x id="PH" equiv-text="this.selectedCorsoName"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pagina-corso/pagina-corso.component.ts</context>
+          <context context-type="linenumber">83</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1740356153635597397" datatype="html">
+        <source>Unsubscribe <x id="PH" equiv-text="this.selectedStudentMatricola"/> from course <x id="PH_1" equiv-text="this.selectedCorsoName"/></source>
+        <target>Disiscrivi <x id="PH" equiv-text="this.selectedStudentMatricola"/> dal corso <x id="PH_1" equiv-text="this.selectedCorsoName"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pagina-corso/pagina-corso.component.ts</context>
+          <context context-type="linenumber">97</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4562121420302634497" datatype="html">
+        <source>Add student</source>
+        <target>Aggiungi studente</target>
+        
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pagina-student/pagina-student.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pagina-student/pagina-student.component.ts</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5082353227729095259" datatype="html">
+        <source>Student list</source>
+        <target>Lista studenti</target>
+        
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pagina-student/pagina-student.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8077588271816925049" datatype="html">
+        <source>Enroll student</source>
+        <target>Iscrivi studente</target>
+        
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pagina-student/pagina-student.component.html</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8697916684184138068" datatype="html">
+        <source> Go to courses page </source>
+        <target> Vai alla pagina corsi</target>
+        
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pagina-student/pagina-student.component.html</context>
+          <context context-type="linenumber">58,60</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8498304741111987760" datatype="html">
+        <source>Students list</source>
+        <target>Lista studenti</target>
+        
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pagina-student/pagina-student.component.ts</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6543712378340428938" datatype="html">
+        <source>Enroll student in a course</source>
+        <target>Iscrivi studente ad un corso</target>
+        
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pagina-student/pagina-student.component.ts</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6204551068525995723" datatype="html">
+        <source>Modify student <x id="PH" equiv-text="this.selectedStudentMatricola"/></source>
+        <target>Modifica studente<x id="PH" equiv-text="this.selectedStudentMatricola"/></target>
+        
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pagina-student/pagina-student.component.ts</context>
+          <context context-type="linenumber">69</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3464263117136928126" datatype="html">
+        <source>Delete student <x id="PH" equiv-text="this.selectedStudentMatricola"/></source>
+        
+        <target>Cancella studente <x id="PH" equiv-text="this.selectedStudentMatricola"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pagina-student/pagina-student.component.ts</context>
+          <context context-type="linenumber">71</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="187187500641108332" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="{{ title }}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/tabella/tabella.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

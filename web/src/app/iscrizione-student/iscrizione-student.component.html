@@ -1,0 +1,170 @@
+<form
+  [formGroup]="form"
+  (ngSubmit)="onSubmit()"
+  class="needs-validation container card py-3 gy-4 my-1"
+  novalidate
+>
+  <div class="col px-4">
+    <h3 class="row">{{ title }}</h3>
+    <div class="row">
+      <label for="matricola" class="form-label row" i18n>Badge number:</label>
+      <input
+        type="text"
+        id="matricola"
+        name="matricola"
+        formControlName="matricola"
+        class="form-control row gx-1"
+        required
+        [class.is-invalid]="
+          (form.get('matricola')?.touched || form.get('matricola')?.dirty) &&
+          form.get('matricola')?.invalid
+        "
+        [class.is-valid]="form.get('matricola')?.valid"
+        list="matricolaDatalistSuggestions"
+      />
+      <datalist id="matricolaDatalistSuggestions">
+        <option *ngFor="let suggestion of matricolaSuggestions">
+          {{ suggestion }}
+        </option>
+      </datalist>
+
+      <div
+        *ngIf="matricola.invalid && (matricola.dirty || matricola.touched)"
+        class="invalid-feedback"
+      >
+        <div *ngIf="matricola.errors?.['required']" i18n>
+          Badge number is required.
+        </div>
+        <div *ngIf="matricola.errors?.['matricolaInvalid']" i18n>
+          Badge number is invalid.
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <label for="nome" class="form-label row" i18n>Name:</label>
+      <input
+        type="text"
+        id="nome"
+        name="nome"
+        formControlName="nome"
+        class="form-control row gx-1"
+        required
+        [class.is-invalid]="
+          (form.get('nome')?.touched || form.get('nome')?.dirty) &&
+          form.get('nome')?.invalid
+        "
+        [class.is-valid]="form.get('nome')?.valid"
+      />
+      <div
+        *ngIf="nome.invalid && (nome.dirty || nome.touched)"
+        class="invalid-feedback"
+      >
+        <div *ngIf="nome.errors?.['required']" i18n>Name is required.</div>
+        <div *ngIf="nome.errors?.['nameInvalid']" i18n>Name is invalid.</div>
+      </div>
+    </div>
+
+    <div class="row">
+      <label for="nome" class="form-label row" i18n>Surname</label>
+      <input
+        type="text"
+        id="cognome"
+        name="cognome"
+        formControlName="cognome"
+        class="form-control row gx-1"
+        required
+        [class.is-invalid]="
+          (form.get('cognome')?.touched || form.get('cognome')?.dirty) &&
+          form.get('cognome')?.invalid
+        "
+        [class.is-valid]="form.get('cognome')?.valid"
+      />
+      <div
+        *ngIf="cognome.invalid && (cognome.dirty || cognome.touched)"
+        class="invalid-feedback"
+      >
+        <div *ngIf="cognome.errors?.['required']" i18n>
+          Surname is required.
+        </div>
+        <div *ngIf="cognome.errors?.['nameInvalid']" i18n>
+          Surname is invalid.
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <label for="corso" class="form-label row" i18n>Course:</label>
+      <input
+        type="text"
+        id="corso"
+        name="corso"
+        formControlName="corso"
+        class="form-control row gx-1"
+        required
+        [class.is-invalid]="
+          (form.get('corso')?.touched || form.get('corso')?.dirty) &&
+          form.get('corso')?.invalid
+        "
+        [class.is-valid]="form.get('corso')?.valid"
+        list="courseDatalistSuggestions"
+      />
+      <datalist id="courseDatalistSuggestions">
+        <!-- La async keyword fa la subscribe all'Observable, e ritorna l'ultimo valore che l'Obs ha emesso -->
+        <option *ngFor="let suggestion of corsiSuggestions">
+          {{ suggestion }}
+        </option>
+      </datalist>
+
+      <div
+        *ngIf="corso.invalid && (corso.dirty || corso.touched)"
+        class="invalid-feedback"
+      >
+        <div *ngIf="corso.errors?.['required']" i18n>Course is required.</div>
+        <div *ngIf="corso.errors?.['corsoInvalid']" i18n>
+          Course is invalid.
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <label for="professor" class="form-label row" i18n>Professor:</label>
+      <input
+        type="text"
+        id="professor"
+        name="professor"
+        formControlName="professor"
+        class="form-control row gx-1"
+        required
+        [class.is-invalid]="
+          (form.get('professor')?.touched || form.get('professor')?.dirty) &&
+          form.get('professor')?.invalid
+        "
+        [class.is-valid]="form.get('professor')?.valid"
+      />
+      <div
+        *ngIf="professore.invalid && (professore.dirty || professore.touched)"
+        class="invalid-feedback"
+      >
+        <div *ngIf="professore.errors?.['required']" i18n>
+          Professor is required.
+        </div>
+        <div *ngIf="professore.errors?.['nameInvalid']" i18n>
+          Professor is invalid.
+        </div>
+      </div>
+    </div>
+    <div class="row mt-3 justify-content-md-end">
+      <div class="col-sm-2">
+        <button
+          type="submit"
+          [disabled]="!form.valid"
+          class="btn btn-primary"
+          i18n
+        >
+          Submit
+        </button>
+      </div>
+    </div>
+  </div>
+</form>

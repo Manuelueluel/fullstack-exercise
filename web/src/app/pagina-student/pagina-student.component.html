@@ -1,0 +1,61 @@
+<ul ngbNav #nav="ngbNav" [(activeId)]="active" class="nav-tabs">
+  <li [ngbNavItem]="1">
+    <button ngbNavLink i18n>Add student</button>
+    <ng-template ngbNavContent>
+      <!-- notify è l'event emitter nel child, che notifica il parent,
+          all'arrivo della notifica il parent esegue receiveEvent() -->
+
+      <app-form-student
+        (notify)="createStudentEvent($event)"
+        [title]="titleAggiungiStudente"
+      ></app-form-student>
+    </ng-template>
+  </li>
+  <li [ngbNavItem]="2">
+    <button ngbNavLink i18n>Student list</button>
+    <ng-template ngbNavContent>
+      <app-tabella
+        [title]="titleStudentTable"
+        [headers]="studentTable.headers"
+        [rows]="studentTable.rows"
+        (notify)="selectStudentEvent($event)"
+      ></app-tabella>
+
+      <div *ngIf="showModificaStudent">
+        <app-form-student
+          (notify)="updateStudentEvent($event)"
+          [title]="titleModificaStudent"
+        ></app-form-student>
+      </div>
+
+      <div *ngIf="showCancellaStudent">
+        <app-accept-deny
+          (acceptEvent)="deleteStudent()"
+          (denyEvent)="hideCancellaStudent()"
+          [title]="titleCancellaStudent"
+        ></app-accept-deny>
+      </div>
+    </ng-template>
+  </li>
+  <li [ngbNavItem]="3">
+    <button ngbNavLink i18n>Enroll student</button>
+    <ng-template ngbNavContent>
+      <app-iscrizione-student
+        [title]="titleIscrizioneStudente"
+      ></app-iscrizione-student>
+    </ng-template>
+  </li>
+</ul>
+
+<div [ngbNavOutlet]="nav" class="mt-2"></div>
+
+<div class="text-center">
+  <button
+    type="button"
+    onclick="window.location.href='/corso';"
+    class="btn btn-primary mt-5 mb-5"
+    i18n
+  >
+    Go to courses page
+  </button>
+</div>
